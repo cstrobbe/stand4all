@@ -1,5 +1,5 @@
 
-body { margin: 0; padding-top: 0; 
+body { margin: 0; padding-top: 0;
   font-family: 'Trebuchet MS', Verdana, Geneva, Helvetica, sans-serif;
   font-size: 1em; line-height: 1.4em; letter-spacing: .01em; word-spacing:0.1em;
   background-color: #FDFDFD; color: #000;
@@ -15,8 +15,8 @@ div#logo { float: left; margin: 0 1em 0 -5px; padding: 0; border: none; }
 div#logo img { border: none; margin: 0; }
 
 div#navigation { float: left; width: 24%; height: 100%;
-  margin: 0;  
-  /*push div#main to right of navigation: */ 
+  margin: 0;
+  /*push div#main to right of navigation: */
   clear: left;
   bottom: 0; padding-bottom: 0;
 }
@@ -60,7 +60,8 @@ div#navigation ul li a:hover, div#navigation ul li a:focus {
 }
 div#navigation ul li.here { border-left: 6px solid #95C7EE; }
 div#navigation ul li.here a { padding-left: 2px; color: #FFF; background: #055597; font-weight: bold;}
-div#navigation ul li.here a:hover, div#navigation ul li.here a:focus { border: none; padding-left: 8px; font-weight: bold; }
+div#navigation ul li.here a:hover, div#navigation ul li.here a:focus { border: none; padding-left: 8px; font-weight: bold;}
+div#navigation ul li.here a:hover, a[aria-current=page] { cursor: text; color: red; }
 
 div#navigation p.nav_bg { text-align: center; background-color: inherit; overflow: hidden; }
 
